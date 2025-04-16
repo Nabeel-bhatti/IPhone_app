@@ -36,7 +36,7 @@ const ModelView = ({
         enablePan={false}
         rotateSpeed={0.4}
         target={new THREE.Vector3(0, 0, 0)}
-        onEnd={() => setRotaionState(controlRef.current.getAzimuthalAnge())}
+        onEnd={() => setRotaionState(controlRef.current.getAzimuthalAngle())}
       />
       <group
         ref={groupRef}
